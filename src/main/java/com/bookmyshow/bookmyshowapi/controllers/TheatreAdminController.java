@@ -3,12 +3,10 @@ package com.bookmyshow.bookmyshowapi.controllers;
 import com.bookmyshow.bookmyshowapi.models.*;
 import com.bookmyshow.bookmyshowapi.repositories.*;
 import com.bookmyshow.bookmyshowapi.services.AddScreenAndSeatsService;
-import enums.Language;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;

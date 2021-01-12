@@ -1,15 +1,14 @@
 package com.bookmyshow.bookmyshowapi.models;
 
-import enums.CertificateType;
-import enums.Genre;
-import enums.Language;
+import com.bookmyshow.bookmyshowapi.enums.CertificateType;
+import com.bookmyshow.bookmyshowapi.enums.Genre;
+import com.bookmyshow.bookmyshowapi.enums.Language;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Data
 @Builder

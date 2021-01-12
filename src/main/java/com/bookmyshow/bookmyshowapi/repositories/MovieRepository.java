@@ -1,7 +1,7 @@
 package com.bookmyshow.bookmyshowapi.repositories;
 
 import com.bookmyshow.bookmyshowapi.models.Movie;
-import enums.Language;
+import com.bookmyshow.bookmyshowapi.enums.Language;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

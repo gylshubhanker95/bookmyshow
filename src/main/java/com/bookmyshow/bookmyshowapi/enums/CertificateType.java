@@ -1,4 +1,4 @@
-package enums;
+package com.bookmyshow.bookmyshowapi.enums;
 
 public enum CertificateType {
     UA,

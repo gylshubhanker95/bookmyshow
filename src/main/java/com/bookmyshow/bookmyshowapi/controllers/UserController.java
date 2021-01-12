@@ -151,6 +151,7 @@ public class UserController {
 
         for(PreBooking pre : preBookings){
             seats.add(pre.getSeat().getSeatName());
+            pre.getSeat().setBooked(true);
         }
         Ticket ticket = Ticket.builder().
                 movie(preBookings.get(0).getShow().getMovie()).
