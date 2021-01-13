@@ -14,6 +14,8 @@
 
 - Seats will be locked for 10 minutes after which user has to reselect seats.
 
+- Ticket Booking will stop before 30 minutes of Show Timing.
+
 # Assumptions
 
 For the simplicity of system, I have made following assumptions while implementing the solution -
