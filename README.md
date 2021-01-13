@@ -12,7 +12,7 @@
 
 - Seats will be locked until the payments completed.If payment fails lock will be removed from the seats.
 
-- Seats will be locked for 10 minutes after which user has to resect seats.
+- Seats will be locked for 10 minutes after which user has to reselect seats.
 
 # Assumptions
 
@@ -27,6 +27,8 @@ For the simplicity of system, I have made following assumptions while implementi
 - Open src/main/resources/application.properties and change spring.datasource.username and spring.datasource.password properties as per your PostgreSQL installation.
 
 - Type mvn spring-boot:run from the root directory of the project to run the application.
+
+- Access the application using swagger on http://localhost:8080/swagger-ui.html
 
 # Future Scope
 
