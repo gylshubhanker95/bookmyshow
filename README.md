@@ -12,6 +12,8 @@
 
 - Seats will be locked until the payments completed.If payment fails lock will be removed from the seats.
 
+- Seats will be locked for 10 minutes after which user has to resect seats.
+
 # Assumptions
 
 For the simplicity of system, I have made following assumptions while implementing the solution -
@@ -28,6 +30,5 @@ For the simplicity of system, I have made following assumptions while implementi
 
 # Future Scope
 
-- Seat locking timeout after period of time
 - Payment Flow
 - Login and User Account Management

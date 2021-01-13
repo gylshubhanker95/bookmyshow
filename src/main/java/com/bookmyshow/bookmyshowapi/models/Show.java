@@ -29,4 +29,6 @@ public class Show extends Auditable{
     @ManyToOne
     private City city;
 
+    private Boolean isAvailableForBooking;
+
 }
